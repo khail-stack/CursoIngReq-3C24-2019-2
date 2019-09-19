@@ -1,49 +1,48 @@
 \chapter{Requerimientos}
-hola
 \section{Requerimientos de interfaces externas}
+Cuenta con dos perfiles uno para el alumno y otro para la empresa
 
 \section{Requerimientos Funcionales}
 
-A continuación se detalla los requerimientos funcionales de la aplicación organizado por módulos
+Mediante los requerimientos funcionales se mostrára detalladamente la aplicacion realizada por modulos
 
 \subsection{Inicio de Sesión}
-
-
-	\begin{table}[h!]	
-		\begin{tabular}{ |p{2cm}|p{12cm}| }	\hline
-			
-			\rowcolor{gray!50}  \textbf{No.}  &  \textbf{Descripción} \\ \hline
-			
-			RF-100&Los usuarios deberan tener una credencial compuesta por un id y su clave.  \\	\hline
-			
-			RF-101&El id debera ser de 8 caracteres como máximo.  \\ \hline
-			
-			RF-102&El clave debe ser un número de 4 digitos que debera ser cambiada cada 6 meses.  \\ \hline	
-		
-		\end{tabular}
-	\end{table}	
-
-
-\subsection{Registro de objetos perdidos}
-
 \begin{flushright}
-
-	\begin{enumerate} [label=RF-\arabic*. , align=left]
-		\setcounter{enumi}{200}	 % Los requerimientos empiezan con el valor 200
-		\item 
-		Los usuarios deberán tener una credencial compuesta por un id y su clave.Los usuarios deberán tener una credencial compuesta por un id y su claveLos usuarios deberán tener una credencial compuesta por un id y su claveLos usuarios deberán tener una credencial compuesta por un id y su claveLos usuarios deberán tener una credencial compuesta por un id y su clave
-		\item  
-		El id deberá ser de 8 caracteres como máximo.
-		\item  
-		El clave debe ser un número de 4 digitos que deberá ser cambiada cada 6 meses.
-		\item \blindtext
+	\begin{enumerate}
+		\setcounter{enumi}{100}
+		\item El id del alumno sera el correo de Tecsup.
+		\item El id de la empresa debe tener como minimo 8 caracteres.
+		\item La clave del usuario debe ser un numero de 6 caracteres que debera ser cambiada cada 8 meses.
 	\end{enumerate}
-
 \end{flushright}
-
-\subsection{Registro de usuarios}
-
+\subsection{Ofertas de Trabajo}
+El area encargada de las ofertas laborales sera administrado por el area de pasantías
+\begin{flushright}
+	\begin{enumerate}
+		\setcounter{enumi}{200}
+		\item Las ofertas podrán ser visualizadas de acuerdo a su carrera.
+		\item Podras enviar tus documentos a la empresa mediante nuestra plataforma.
+		\item La empresa debera registrarse si desea publicar un anuncio de empleo.
+		\item El alumno recibira anuncios de ofertas laborales a su plataforma.
+	\end{enumerate}
+\end{flushright}
+\subsection{Crear Cuenta}
+\begin{flushright}
+	\begin{enumerate}
+		\setcounter{enumi}{300}
+		\item El usuario debera crear una cuenta en el cual debera especificar sus datos personales "Nombres,Apellidos, DNI, Edad, Carrera y el ciclo que cursa"
+		\item Esta aplicacion solo será valida para los alumnos de III, IV, V ,VI y egresados de Tecsup .
+	\end{enumerate}
+\end{flushright}  
 
 \section{Requerimientos No Funcionales}
+\begin{flushright}
+	\begin{enumerate}
+		\setcounter{enumi}{300}
+		\item No es una aplicacion internacinal.
+		\item Ser responsables de los ofertas de trabajo.
+	\end{enumerate}
+\end{flushright}  
+
 
 
